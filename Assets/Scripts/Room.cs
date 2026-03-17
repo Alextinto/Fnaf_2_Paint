@@ -4,13 +4,17 @@ using UnityEngine;
 public class Room : MonoBehaviour
 {
     [Header("Initial Settings")]
+    
     public string roomID;
-    public List<VisualInformation> visuals;
-    public List<TranslationInformation> translations;
-    public bool canHoldMultipleAnimatronics = false;
+    public Camera roomCamera;
+    public Light roomLight;
+
+    [SerializeField] List<VisualInformation> visuals;
+    [SerializeField] List<TranslationInformation> translations;
+    [SerializeField] bool canHoldMultipleAnimatronics = false;
 
     [Header("Runtime")]
-    public List<AnimatronicID> actualAnimatronicsInRoom;
+    [SerializeField] List<AnimatronicID> actualAnimatronicsInRoom;
 
     public Room GetNextRoom(AnimatronicID animatronicID)
     {
@@ -49,6 +53,19 @@ public class Room : MonoBehaviour
             }
         }
         actualAnimatronicsInRoom.Remove(animatronicId);
+    }
+
+    [ContextMenu("Auto Fill ID")]
+    private void AutoFillID()
+    {
+        roomID = gameObject.name;
+    }
+
+    [ContextMenu("Auto Fill Room and Light")]
+    private void AutoFillRoomAndLight()
+    {
+        roomCamera = GetComponentInChildren<Camera>();
+        roomLight = GetComponentInChildren<Light>();
     }
 }
 

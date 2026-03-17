@@ -1,0 +1,4 @@
+public class AnimatronicFoxy : Animatronic
+{
+
+}

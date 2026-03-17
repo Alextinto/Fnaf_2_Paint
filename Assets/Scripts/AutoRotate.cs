@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//Para test
 public class AutoRotate : MonoBehaviour
 {
     //speed in angles in one second

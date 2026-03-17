@@ -15,10 +15,12 @@ public class Animatronic : MonoBehaviour
 
     private float timer;
 
+    //Initialization on start to setup difficulties in awake from other script
     private void Start()
     {
         timer = 0;
         currentRoom = initialRoom;
+        Debug.Log($"[Animatronic] {animatronicID} start in room {currentRoom.roomID}");
         currentRoom.EnterThisRoom(animatronicID);
     }
 
