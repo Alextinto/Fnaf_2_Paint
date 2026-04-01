@@ -12,5 +12,6 @@ public enum AnimatronicID
     witheredFox,
     witheredGoldenFreddy,
     shadowFreddy,
-    shadowBonnie
+    shadowBonnie,
+    endo
 }

@@ -16,7 +16,7 @@ public class Animatronic : MonoBehaviour
     private float timer;
 
     //Initialization on start to setup difficulties in awake from other script
-    private void Start()
+    protected virtual void Start()
     {
         timer = 0;
         currentRoom = initialRoom;
