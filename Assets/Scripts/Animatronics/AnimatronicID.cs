@@ -6,6 +6,7 @@ public enum AnimatronicID
     toyChica,
     mangle,
     balloonBoy,
+    puppet,
     witheredFreddy,
     witheredBonnie,
     witheredChica,
@@ -13,5 +14,6 @@ public enum AnimatronicID
     witheredGoldenFreddy,
     shadowFreddy,
     shadowBonnie,
-    endo
+    endo,
+    balloonGirl
 }

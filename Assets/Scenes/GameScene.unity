@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 7
   initialRoom: {fileID: 595903241}
   aggressionLevel: 1
   timeToMove: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 8
   initialRoom: {fileID: 595903241}
   aggressionLevel: 1
   timeToMove: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9e8f14515775b45b4e5644c085e956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 4
   initialRoom: {fileID: 1165362702}
   aggressionLevel: 1
   timeToMove: 0
@@ -1320,6 +1320,7 @@ Transform:
   - {fileID: 20775570}
   - {fileID: 126436067}
   - {fileID: 1540138928}
+  - {fileID: 1001110967}
   - {fileID: 1195687303}
   - {fileID: 548984317}
   - {fileID: 968357784}
@@ -1882,7 +1883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 12
   initialRoom: {fileID: 182430205}
   aggressionLevel: 1
   timeToMove: 0
@@ -2414,7 +2415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 1
   initialRoom: {fileID: 1325419543}
   aggressionLevel: 1
   timeToMove: 0
@@ -2463,7 +2464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 13
   initialRoom: {fileID: 182430205}
   aggressionLevel: 1
   timeToMove: 0
@@ -2992,7 +2993,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 11
+  initialRoom: {fileID: 182430205}
+  aggressionLevel: 1
+  timeToMove: 0
+  currentRoom: {fileID: 0}
+--- !u!1 &1001110966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001110967}
+  - component: {fileID: 1001110968}
+  m_Layer: 0
+  m_Name: W - Golden Freddy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001110967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001110966}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 295769043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1001110968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001110966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aa195dfdadd0340afe4fe567afac2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatronicID: 10
   initialRoom: {fileID: 182430205}
   aggressionLevel: 1
   timeToMove: 0
@@ -3193,7 +3243,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
   m_Intensity: 5.57
-  m_Range: 10
+  m_Range: 8.988924
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3825,7 +3875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 2
   initialRoom: {fileID: 1325419543}
   aggressionLevel: 1
   timeToMove: 0
@@ -3995,7 +4045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 14
   initialRoom: {fileID: 182430205}
   aggressionLevel: 1
   timeToMove: 0
@@ -4914,7 +4964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c04937a018c6c844ad0cd69697e3490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 5
   initialRoom: {fileID: 2039428699}
   aggressionLevel: 1
   timeToMove: 0
@@ -5086,7 +5136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1aa195dfdadd0340afe4fe567afac2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 9
   initialRoom: {fileID: 595903241}
   aggressionLevel: 1
   timeToMove: 0
@@ -5430,7 +5480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 119fda91057209845b48e14f1b226169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 3
   initialRoom: {fileID: 203169422}
   aggressionLevel: 1
   timeToMove: 0
@@ -19294,7 +19344,7 @@ Transform:
   m_GameObject: {fileID: 1922535861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -29.6, y: 0, z: 9.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20027,7 +20077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489d5110a1ea6b4ca922708ff9ebaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatronicID: 0
+  animatronicID: 6
   initialRoom: {fileID: 595903241}
   aggressionLevel: 1
   timeToMove: 0
